@@ -325,6 +325,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "dataclasses"
 version = "0.8"
 source = { registry = "https://pypi.org/simple" }
@@ -334,6 +335,8 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> c36a230af9208e40ab7bc43fe36dae2a5f4964e3
 name = "distro"
 version = "1.9.0"
 source = { registry = "https://pypi.org/simple" }
@@ -807,6 +810,7 @@ wheels = [
 ]
 
 [[package]]
+<<<<<<< HEAD
 name = "langchain-tool"
 version = "0.1.1"
 source = { registry = "https://pypi.org/simple" }
@@ -816,34 +820,48 @@ wheels = [
 ]
 
 [[package]]
+=======
+>>>>>>> c36a230af9208e40ab7bc43fe36dae2a5f4964e3
 name = "langchain-updated"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+
     { name = "dataclasses" },
+
     { name = "langchain" },
     { name = "langchain-community" },
     { name = "langchain-google-genai" },
     { name = "langchain-groq" },
     { name = "langchain-openai" },
+
     { name = "langchain-tool" },
     { name = "pydantic" },
     { name = "python-dotenv" },
     { name = "typing-extensions" },
+
+    { name = "python-dotenv" },
+
 ]
 
 [package.metadata]
 requires-dist = [
+
     { name = "dataclasses", specifier = ">=0.8" },
+
     { name = "langchain", specifier = ">=1.4.2" },
     { name = "langchain-community", specifier = ">=0.4.2" },
     { name = "langchain-google-genai", specifier = ">=4.4.0" },
     { name = "langchain-groq", specifier = ">=1.1.3" },
     { name = "langchain-openai", specifier = ">=1.6.2" },
+
     { name = "langchain-tool", specifier = ">=0.1.1" },
     { name = "pydantic", specifier = ">=2.13.5" },
     { name = "python-dotenv", specifier = ">=1.2.3" },
     { name = "typing-extensions", specifier = ">=4.16.0" },
+
+    { name = "python-dotenv", specifier = ">=1.2.3" },
+
 ]
 
 [[package]]
