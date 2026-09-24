@@ -325,7 +325,7 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
+
 name = "dataclasses"
 version = "0.8"
 source = { registry = "https://pypi.org/simple" }
@@ -335,8 +335,8 @@ wheels = [
 ]
 
 [[package]]
-=======
->>>>>>> c36a230af9208e40ab7bc43fe36dae2a5f4964e3
+
+
 name = "distro"
 version = "1.9.0"
 source = { registry = "https://pypi.org/simple" }
@@ -810,7 +810,7 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
+
 name = "langchain-tool"
 version = "0.1.1"
 source = { registry = "https://pypi.org/simple" }
@@ -820,8 +820,7 @@ wheels = [
 ]
 
 [[package]]
-=======
->>>>>>> c36a230af9208e40ab7bc43fe36dae2a5f4964e3
+
 name = "langchain-updated"
 version = "0.1.0"
 source = { editable = "." }
